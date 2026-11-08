@@ -1,4 +1,4 @@
-# Expenses Dashboard
+﻿# Expenses Dashboard
 
 A mobile-first PWA dashboard for personal expenses stored in Google Sheets.
 Connect your spreadsheet, deploy the static files to any host, and get a
@@ -23,7 +23,7 @@ fast, private dashboard on your phone.
 
 ### Демо
 
-https://quicksnapper.github.io/expenses-dashboard/
+https://barchevskiy29a-ui.github.io/expenses-dashboard/
 
 Демо работает на синтетических данных: это пример, а не чужие траты.
 
@@ -123,7 +123,7 @@ private dashboard on your phone.
 
 ### Demo
 
-https://quicksnapper.github.io/expenses-dashboard/
+https://barchevskiy29a-ui.github.io/expenses-dashboard/
 
 The demo runs on synthetic data: it is an example, not someone's expenses.
 
