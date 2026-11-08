@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08 22:16 МСК",
-  "updated_at_iso": "2026-11-08T22:16:56.748627+03:00",
+  "updated_at": "2026-11-08 22:53 МСК",
+  "updated_at_iso": "2026-11-08T22:53:10.045266+03:00",
   "summary": {
     "month_total": 76333.01,
     "month_label": "2026-11",
@@ -11,8 +11,8 @@
   },
   "categories": [
     {
-      "category": "Жильё",
-      "total": 226860.8
+      "category": "Дом и быт",
+      "total": 294699.45000000007
     },
     {
       "category": "Связь и интернет",
@@ -37,10 +37,6 @@
     {
       "category": "Коммунальные платежи",
       "total": 75478.96000000002
-    },
-    {
-      "category": "Дом и быт",
-      "total": 67838.65000000001
     },
     {
       "category": "Образование",
@@ -259,7 +255,7 @@
     },
     {
       "date": "2026-11-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 32486.02
@@ -812,7 +808,7 @@
     },
     {
       "date": "2026-10-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 36496.24
@@ -1414,7 +1410,7 @@
     },
     {
       "date": "2026-09-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 38445.63
@@ -2072,7 +2068,7 @@
     },
     {
       "date": "2026-08-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 25407.6
@@ -2702,7 +2698,7 @@
     },
     {
       "date": "2026-07-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 25495.73
@@ -3178,7 +3174,7 @@
     },
     {
       "date": "2026-06-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 39156.82
@@ -3661,7 +3657,7 @@
     },
     {
       "date": "2026-05-01",
-      "category": "Жильё",
+      "category": "Дом и быт",
       "subcategory": "",
       "comment": "",
       "amount": 29372.76

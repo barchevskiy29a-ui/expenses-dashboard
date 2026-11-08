@@ -53,7 +53,7 @@ def build_demo_transactions(
             rows.append(
                 {
                     "date": day.isoformat(),
-                    "category": "Жильё",
+                    "category": "Дом и быт",
                     "subcategory": "",
                     "comment": "",
                     "amount": round(rng.uniform(25000, 45000), 2),
