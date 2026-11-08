@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest tests/ -q
+
+      - name: Verify demo data is synthetic
+        run: python -c "import json,re; d=json.load(open('mobile-expenses/data.json',encoding='utf-8')); assert not any(re.search(r'\bu\d{6,}\b', (t.get('comment') or '')+(t.get('subcategory') or '')) for t in d['transactions']); print('demo data OK')"
+
+      - name: Detect secrets
+        run: |
+          if command -v gitleaks >/dev/null 2>&1; then
+            gitleaks detect --source . --no-git --redact
+          else
+            echo "gitleaks not installed; scanning with grep"
+            if grep -RInE 'BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|AIza[0-9A-Za-z_-]{30,}|ghp_[0-9A-Za-z]{30,}' --exclude-dir=.git --exclude='*.pyc' .; then
+              echo "::error::potential secret found"
+              exit 1
+            fi
+          fi

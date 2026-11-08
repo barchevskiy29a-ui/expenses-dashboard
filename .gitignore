@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Secrets & credentials
+.env
+.env.local
+google_credentials.json
+*credentials*.json
+*.key
+*.pem
+
+# Local tooling
+.context/
+.koda/
+.beads/
+.dolt/
+*.db
+*.db-wal
+*.db-shm
+*.log
+.DS_Store

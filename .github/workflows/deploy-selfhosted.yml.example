@@ -1,0 +1,72 @@
+# Example workflow for automatically refreshing and deploying your own
+# dashboard to your own FTP host.
+#
+# 1. Copy this file to `.github/workflows/deploy-selfhosted.yml`.
+# 2. Add repository secrets:
+#    - GOOGLE_SHEET_ID
+#    - GOOGLE_CREDENTIALS_JSON  (service account JSON as a single-line string)
+#    - FTP_HOST, FTP_USER, FTP_PASSWORD
+# 3. Adjust `server-dir` to the folder your host serves.
+#
+# The dashboard only deploys when data.json actually changed.
+
+name: Update and deploy dashboard
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 00:00 MSK
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: Deploy even if data did not change
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Export Google Sheets data
+        env:
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        run: python -m scripts.export_expenses_dashboard
+
+      - name: Commit changed data
+        id: commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add mobile-expenses/data.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: update dashboard data [skip ci]"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy to FTP
+        if: steps.commit.outputs.changed == 'true' || inputs.force_deploy == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./mobile-expenses/
+          server-dir: public_html/expenses/
+          log-level: minimal

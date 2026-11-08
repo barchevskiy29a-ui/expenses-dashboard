@@ -1,0 +1,3670 @@
+{
+  "updated_at": "2026-11-08 22:16 МСК",
+  "updated_at_iso": "2026-11-08T22:16:56.748627+03:00",
+  "summary": {
+    "month_total": 76333.01,
+    "month_label": "2026-11",
+    "total": 1346678.4100000001,
+    "average_month": 192382.63000000003,
+    "months_span": 7,
+    "count": 508
+  },
+  "categories": [
+    {
+      "category": "Жильё",
+      "total": 226860.8
+    },
+    {
+      "category": "Связь и интернет",
+      "total": 107724.78999999998
+    },
+    {
+      "category": "Кафе и рестораны",
+      "total": 98936.72000000002
+    },
+    {
+      "category": "Здоровье",
+      "total": 93879.61999999998
+    },
+    {
+      "category": "Прочее",
+      "total": 79287.39
+    },
+    {
+      "category": "Налоги",
+      "total": 76467.26
+    },
+    {
+      "category": "Коммунальные платежи",
+      "total": 75478.96000000002
+    },
+    {
+      "category": "Дом и быт",
+      "total": 67838.65000000001
+    },
+    {
+      "category": "Образование",
+      "total": 65316.93
+    },
+    {
+      "category": "Развлечения / Отдых",
+      "total": 64392.13000000001
+    },
+    {
+      "category": "Транспорт",
+      "total": 63450.460000000014
+    },
+    {
+      "category": "Спорт и красота",
+      "total": 62580.78000000001
+    },
+    {
+      "category": "Продукты",
+      "total": 61944.28
+    },
+    {
+      "category": "Переводы другим людям",
+      "total": 61794.729999999996
+    },
+    {
+      "category": "Одежда",
+      "total": 58536.36000000001
+    },
+    {
+      "category": "Маркетплейсы",
+      "total": 44771.47000000001
+    },
+    {
+      "category": "Ребёнок",
+      "total": 37417.079999999994
+    }
+  ],
+  "months": [
+    {
+      "month": "2026-05",
+      "total": 173171.22
+    },
+    {
+      "month": "2026-06",
+      "total": 184513.18
+    },
+    {
+      "month": "2026-07",
+      "total": 231038.71000000002
+    },
+    {
+      "month": "2026-08",
+      "total": 223259.5400000001
+    },
+    {
+      "month": "2026-09",
+      "total": 250631.05999999997
+    },
+    {
+      "month": "2026-10",
+      "total": 207731.69000000003
+    },
+    {
+      "month": "2026-11",
+      "total": 76333.00999999998
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-11-08",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 588.73
+    },
+    {
+      "date": "2026-11-08",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2462.33
+    },
+    {
+      "date": "2026-11-08",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3568.23
+    },
+    {
+      "date": "2026-11-08",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2604.7
+    },
+    {
+      "date": "2026-11-07",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4071.07
+    },
+    {
+      "date": "2026-11-07",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1554.72
+    },
+    {
+      "date": "2026-11-07",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 751.3
+    },
+    {
+      "date": "2026-11-07",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1034.92
+    },
+    {
+      "date": "2026-11-07",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1548.47
+    },
+    {
+      "date": "2026-11-06",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1796.1
+    },
+    {
+      "date": "2026-11-06",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3661.82
+    },
+    {
+      "date": "2026-11-05",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3157.92
+    },
+    {
+      "date": "2026-11-05",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3432.02
+    },
+    {
+      "date": "2026-11-05",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2512.78
+    },
+    {
+      "date": "2026-11-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1049.27
+    },
+    {
+      "date": "2026-11-02",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 393.9
+    },
+    {
+      "date": "2026-11-01",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1874.69
+    },
+    {
+      "date": "2026-11-01",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1808.36
+    },
+    {
+      "date": "2026-11-01",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1746.82
+    },
+    {
+      "date": "2026-11-01",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1395.2
+    },
+    {
+      "date": "2026-11-01",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2833.64
+    },
+    {
+      "date": "2026-11-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 32486.02
+    },
+    {
+      "date": "2026-10-31",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1674.09
+    },
+    {
+      "date": "2026-10-31",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1971.16
+    },
+    {
+      "date": "2026-10-31",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 524.65
+    },
+    {
+      "date": "2026-10-31",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3599.39
+    },
+    {
+      "date": "2026-10-30",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3789.01
+    },
+    {
+      "date": "2026-10-30",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2601.85
+    },
+    {
+      "date": "2026-10-30",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 634.86
+    },
+    {
+      "date": "2026-10-29",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1988.81
+    },
+    {
+      "date": "2026-10-29",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 368.17
+    },
+    {
+      "date": "2026-10-29",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3576.98
+    },
+    {
+      "date": "2026-10-29",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2919.28
+    },
+    {
+      "date": "2026-10-29",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3026.6
+    },
+    {
+      "date": "2026-10-28",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2063.08
+    },
+    {
+      "date": "2026-10-28",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2214.01
+    },
+    {
+      "date": "2026-10-28",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1964.18
+    },
+    {
+      "date": "2026-10-28",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3977.3
+    },
+    {
+      "date": "2026-10-28",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3087.15
+    },
+    {
+      "date": "2026-10-27",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 637.17
+    },
+    {
+      "date": "2026-10-27",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2266.43
+    },
+    {
+      "date": "2026-10-26",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 184.39
+    },
+    {
+      "date": "2026-10-25",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1581.63
+    },
+    {
+      "date": "2026-10-23",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2817.12
+    },
+    {
+      "date": "2026-10-22",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2324.08
+    },
+    {
+      "date": "2026-10-21",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2512.44
+    },
+    {
+      "date": "2026-10-21",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1460.52
+    },
+    {
+      "date": "2026-10-21",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3337.67
+    },
+    {
+      "date": "2026-10-21",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1251.28
+    },
+    {
+      "date": "2026-10-20",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4154.39
+    },
+    {
+      "date": "2026-10-20",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 399.93
+    },
+    {
+      "date": "2026-10-19",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 326.36
+    },
+    {
+      "date": "2026-10-18",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2341.42
+    },
+    {
+      "date": "2026-10-18",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 367.04
+    },
+    {
+      "date": "2026-10-18",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 894.42
+    },
+    {
+      "date": "2026-10-18",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3991.96
+    },
+    {
+      "date": "2026-10-18",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 494.03
+    },
+    {
+      "date": "2026-10-16",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1929.0
+    },
+    {
+      "date": "2026-10-16",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3610.24
+    },
+    {
+      "date": "2026-10-15",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2516.35
+    },
+    {
+      "date": "2026-10-15",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3732.49
+    },
+    {
+      "date": "2026-10-15",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3521.47
+    },
+    {
+      "date": "2026-10-15",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3951.34
+    },
+    {
+      "date": "2026-10-15",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 253.48
+    },
+    {
+      "date": "2026-10-14",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1970.87
+    },
+    {
+      "date": "2026-10-13",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 593.77
+    },
+    {
+      "date": "2026-10-13",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3740.02
+    },
+    {
+      "date": "2026-10-12",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 596.04
+    },
+    {
+      "date": "2026-10-12",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3980.75
+    },
+    {
+      "date": "2026-10-11",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 562.05
+    },
+    {
+      "date": "2026-10-11",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2043.63
+    },
+    {
+      "date": "2026-10-11",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3854.24
+    },
+    {
+      "date": "2026-10-11",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2762.42
+    },
+    {
+      "date": "2026-10-11",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3830.3
+    },
+    {
+      "date": "2026-10-10",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 488.44
+    },
+    {
+      "date": "2026-10-10",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 176.79
+    },
+    {
+      "date": "2026-10-10",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1975.53
+    },
+    {
+      "date": "2026-10-10",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2505.01
+    },
+    {
+      "date": "2026-10-09",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4066.46
+    },
+    {
+      "date": "2026-10-08",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2030.79
+    },
+    {
+      "date": "2026-10-08",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 694.29
+    },
+    {
+      "date": "2026-10-07",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4066.93
+    },
+    {
+      "date": "2026-10-07",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3165.96
+    },
+    {
+      "date": "2026-10-06",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 939.24
+    },
+    {
+      "date": "2026-10-06",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2285.88
+    },
+    {
+      "date": "2026-10-06",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3508.33
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2683.25
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1380.45
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 256.13
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3108.03
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3831.28
+    },
+    {
+      "date": "2026-10-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 861.38
+    },
+    {
+      "date": "2026-10-04",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2885.28
+    },
+    {
+      "date": "2026-10-03",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1013.54
+    },
+    {
+      "date": "2026-10-02",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 209.51
+    },
+    {
+      "date": "2026-10-02",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1239.88
+    },
+    {
+      "date": "2026-10-02",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3835.32
+    },
+    {
+      "date": "2026-10-02",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3517.98
+    },
+    {
+      "date": "2026-10-02",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3285.02
+    },
+    {
+      "date": "2026-10-01",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2453.44
+    },
+    {
+      "date": "2026-10-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 36496.24
+    },
+    {
+      "date": "2026-09-29",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1983.89
+    },
+    {
+      "date": "2026-09-29",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 932.81
+    },
+    {
+      "date": "2026-09-29",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3601.61
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3787.55
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3796.93
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 421.36
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4149.62
+    },
+    {
+      "date": "2026-09-28",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2726.87
+    },
+    {
+      "date": "2026-09-27",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2648.42
+    },
+    {
+      "date": "2026-09-27",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2150.48
+    },
+    {
+      "date": "2026-09-27",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1067.33
+    },
+    {
+      "date": "2026-09-27",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1995.05
+    },
+    {
+      "date": "2026-09-26",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 834.28
+    },
+    {
+      "date": "2026-09-25",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2428.99
+    },
+    {
+      "date": "2026-09-24",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1930.21
+    },
+    {
+      "date": "2026-09-24",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3805.97
+    },
+    {
+      "date": "2026-09-24",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1443.45
+    },
+    {
+      "date": "2026-09-24",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1316.94
+    },
+    {
+      "date": "2026-09-24",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1877.2
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3679.32
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2639.23
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2695.14
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4189.5
+    },
+    {
+      "date": "2026-09-22",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1890.6
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 425.3
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1501.33
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2771.33
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3597.55
+    },
+    {
+      "date": "2026-09-21",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4012.89
+    },
+    {
+      "date": "2026-09-20",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2265.88
+    },
+    {
+      "date": "2026-09-20",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 182.62
+    },
+    {
+      "date": "2026-09-20",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1792.71
+    },
+    {
+      "date": "2026-09-19",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2997.33
+    },
+    {
+      "date": "2026-09-19",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1695.2
+    },
+    {
+      "date": "2026-09-19",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2140.94
+    },
+    {
+      "date": "2026-09-19",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 635.08
+    },
+    {
+      "date": "2026-09-19",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3668.38
+    },
+    {
+      "date": "2026-09-18",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 298.08
+    },
+    {
+      "date": "2026-09-17",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4121.56
+    },
+    {
+      "date": "2026-09-17",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2452.93
+    },
+    {
+      "date": "2026-09-16",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3650.26
+    },
+    {
+      "date": "2026-09-16",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2317.41
+    },
+    {
+      "date": "2026-09-16",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1476.36
+    },
+    {
+      "date": "2026-09-16",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1977.81
+    },
+    {
+      "date": "2026-09-15",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3931.73
+    },
+    {
+      "date": "2026-09-15",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3467.84
+    },
+    {
+      "date": "2026-09-15",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3082.29
+    },
+    {
+      "date": "2026-09-14",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3881.22
+    },
+    {
+      "date": "2026-09-14",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3645.23
+    },
+    {
+      "date": "2026-09-14",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3272.51
+    },
+    {
+      "date": "2026-09-13",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2369.16
+    },
+    {
+      "date": "2026-09-12",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1815.2
+    },
+    {
+      "date": "2026-09-12",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4119.4
+    },
+    {
+      "date": "2026-09-11",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3925.22
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3015.91
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2367.42
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 500.29
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2002.71
+    },
+    {
+      "date": "2026-09-10",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2762.66
+    },
+    {
+      "date": "2026-09-09",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3713.85
+    },
+    {
+      "date": "2026-09-09",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 615.42
+    },
+    {
+      "date": "2026-09-08",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2360.82
+    },
+    {
+      "date": "2026-09-06",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2803.25
+    },
+    {
+      "date": "2026-09-06",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1806.05
+    },
+    {
+      "date": "2026-09-06",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2235.23
+    },
+    {
+      "date": "2026-09-06",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2671.67
+    },
+    {
+      "date": "2026-09-05",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1295.93
+    },
+    {
+      "date": "2026-09-05",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3439.35
+    },
+    {
+      "date": "2026-09-05",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1975.69
+    },
+    {
+      "date": "2026-09-05",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1149.79
+    },
+    {
+      "date": "2026-09-05",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4078.35
+    },
+    {
+      "date": "2026-09-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 923.34
+    },
+    {
+      "date": "2026-09-04",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2854.14
+    },
+    {
+      "date": "2026-09-04",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1465.6
+    },
+    {
+      "date": "2026-09-03",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3857.58
+    },
+    {
+      "date": "2026-09-03",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4187.54
+    },
+    {
+      "date": "2026-09-03",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2709.92
+    },
+    {
+      "date": "2026-09-03",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4073.75
+    },
+    {
+      "date": "2026-09-03",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1539.68
+    },
+    {
+      "date": "2026-09-02",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3233.48
+    },
+    {
+      "date": "2026-09-02",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2039.64
+    },
+    {
+      "date": "2026-09-01",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3748.85
+    },
+    {
+      "date": "2026-09-01",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2583.15
+    },
+    {
+      "date": "2026-09-01",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 492.61
+    },
+    {
+      "date": "2026-09-01",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4198.26
+    },
+    {
+      "date": "2026-09-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 38445.63
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1911.75
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2929.81
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3966.12
+    },
+    {
+      "date": "2026-08-31",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1906.06
+    },
+    {
+      "date": "2026-08-30",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1854.57
+    },
+    {
+      "date": "2026-08-30",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2762.35
+    },
+    {
+      "date": "2026-08-30",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3492.66
+    },
+    {
+      "date": "2026-08-30",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 363.32
+    },
+    {
+      "date": "2026-08-30",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2547.78
+    },
+    {
+      "date": "2026-08-29",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1308.34
+    },
+    {
+      "date": "2026-08-29",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1295.47
+    },
+    {
+      "date": "2026-08-29",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2988.19
+    },
+    {
+      "date": "2026-08-29",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 410.41
+    },
+    {
+      "date": "2026-08-29",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3889.56
+    },
+    {
+      "date": "2026-08-28",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1786.75
+    },
+    {
+      "date": "2026-08-26",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 829.16
+    },
+    {
+      "date": "2026-08-25",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2607.29
+    },
+    {
+      "date": "2026-08-25",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3986.17
+    },
+    {
+      "date": "2026-08-25",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2672.1
+    },
+    {
+      "date": "2026-08-25",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2814.55
+    },
+    {
+      "date": "2026-08-24",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3826.7
+    },
+    {
+      "date": "2026-08-24",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3629.48
+    },
+    {
+      "date": "2026-08-24",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1365.95
+    },
+    {
+      "date": "2026-08-23",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 467.54
+    },
+    {
+      "date": "2026-08-23",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 603.28
+    },
+    {
+      "date": "2026-08-23",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2593.78
+    },
+    {
+      "date": "2026-08-23",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3284.83
+    },
+    {
+      "date": "2026-08-22",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3474.23
+    },
+    {
+      "date": "2026-08-22",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2126.33
+    },
+    {
+      "date": "2026-08-22",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 739.05
+    },
+    {
+      "date": "2026-08-21",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1917.11
+    },
+    {
+      "date": "2026-08-21",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4059.23
+    },
+    {
+      "date": "2026-08-21",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3959.54
+    },
+    {
+      "date": "2026-08-20",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2965.46
+    },
+    {
+      "date": "2026-08-20",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2722.51
+    },
+    {
+      "date": "2026-08-20",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 538.56
+    },
+    {
+      "date": "2026-08-20",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2462.18
+    },
+    {
+      "date": "2026-08-18",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1353.25
+    },
+    {
+      "date": "2026-08-18",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1239.19
+    },
+    {
+      "date": "2026-08-17",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1407.44
+    },
+    {
+      "date": "2026-08-17",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 901.49
+    },
+    {
+      "date": "2026-08-17",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1248.12
+    },
+    {
+      "date": "2026-08-17",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4120.48
+    },
+    {
+      "date": "2026-08-17",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1328.69
+    },
+    {
+      "date": "2026-08-16",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1856.06
+    },
+    {
+      "date": "2026-08-16",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1555.39
+    },
+    {
+      "date": "2026-08-16",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1225.34
+    },
+    {
+      "date": "2026-08-16",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1060.6
+    },
+    {
+      "date": "2026-08-15",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1948.55
+    },
+    {
+      "date": "2026-08-15",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 499.66
+    },
+    {
+      "date": "2026-08-15",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1769.96
+    },
+    {
+      "date": "2026-08-15",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1369.32
+    },
+    {
+      "date": "2026-08-15",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2050.9
+    },
+    {
+      "date": "2026-08-14",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2387.63
+    },
+    {
+      "date": "2026-08-14",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 469.3
+    },
+    {
+      "date": "2026-08-14",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2113.4
+    },
+    {
+      "date": "2026-08-14",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2937.69
+    },
+    {
+      "date": "2026-08-13",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1492.5
+    },
+    {
+      "date": "2026-08-13",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3591.89
+    },
+    {
+      "date": "2026-08-13",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2109.2
+    },
+    {
+      "date": "2026-08-13",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3375.16
+    },
+    {
+      "date": "2026-08-13",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1261.01
+    },
+    {
+      "date": "2026-08-12",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1114.96
+    },
+    {
+      "date": "2026-08-12",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2444.99
+    },
+    {
+      "date": "2026-08-10",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2632.92
+    },
+    {
+      "date": "2026-08-10",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2016.68
+    },
+    {
+      "date": "2026-08-10",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1435.0
+    },
+    {
+      "date": "2026-08-10",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3509.38
+    },
+    {
+      "date": "2026-08-09",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3005.82
+    },
+    {
+      "date": "2026-08-09",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 838.64
+    },
+    {
+      "date": "2026-08-08",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3586.27
+    },
+    {
+      "date": "2026-08-08",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 550.6
+    },
+    {
+      "date": "2026-08-07",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3368.61
+    },
+    {
+      "date": "2026-08-07",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1536.59
+    },
+    {
+      "date": "2026-08-07",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2819.01
+    },
+    {
+      "date": "2026-08-07",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2184.32
+    },
+    {
+      "date": "2026-08-06",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1738.35
+    },
+    {
+      "date": "2026-08-06",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 430.07
+    },
+    {
+      "date": "2026-08-06",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 535.76
+    },
+    {
+      "date": "2026-08-06",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3589.2
+    },
+    {
+      "date": "2026-08-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1343.11
+    },
+    {
+      "date": "2026-08-04",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 561.04
+    },
+    {
+      "date": "2026-08-03",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2421.0
+    },
+    {
+      "date": "2026-08-03",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2017.34
+    },
+    {
+      "date": "2026-08-03",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3248.94
+    },
+    {
+      "date": "2026-08-03",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2592.04
+    },
+    {
+      "date": "2026-08-03",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3293.39
+    },
+    {
+      "date": "2026-08-02",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 634.98
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4199.62
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1034.83
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3307.43
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3197.27
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 933.39
+    },
+    {
+      "date": "2026-08-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 25407.6
+    },
+    {
+      "date": "2026-07-31",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3188.2
+    },
+    {
+      "date": "2026-07-31",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1149.27
+    },
+    {
+      "date": "2026-07-31",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2038.85
+    },
+    {
+      "date": "2026-07-30",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1455.6
+    },
+    {
+      "date": "2026-07-30",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1453.53
+    },
+    {
+      "date": "2026-07-29",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3820.27
+    },
+    {
+      "date": "2026-07-29",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 462.51
+    },
+    {
+      "date": "2026-07-29",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 673.65
+    },
+    {
+      "date": "2026-07-29",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 861.45
+    },
+    {
+      "date": "2026-07-28",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2849.0
+    },
+    {
+      "date": "2026-07-28",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3074.66
+    },
+    {
+      "date": "2026-07-28",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3871.73
+    },
+    {
+      "date": "2026-07-26",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2315.94
+    },
+    {
+      "date": "2026-07-26",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2111.98
+    },
+    {
+      "date": "2026-07-26",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1898.21
+    },
+    {
+      "date": "2026-07-25",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3615.47
+    },
+    {
+      "date": "2026-07-25",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2066.08
+    },
+    {
+      "date": "2026-07-25",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1338.34
+    },
+    {
+      "date": "2026-07-24",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1816.36
+    },
+    {
+      "date": "2026-07-24",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3518.2
+    },
+    {
+      "date": "2026-07-23",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 684.57
+    },
+    {
+      "date": "2026-07-23",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1682.78
+    },
+    {
+      "date": "2026-07-23",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3002.19
+    },
+    {
+      "date": "2026-07-23",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1812.66
+    },
+    {
+      "date": "2026-07-22",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2677.13
+    },
+    {
+      "date": "2026-07-22",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1914.68
+    },
+    {
+      "date": "2026-07-22",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1076.73
+    },
+    {
+      "date": "2026-07-22",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1424.42
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3508.72
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3780.61
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1956.28
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3546.64
+    },
+    {
+      "date": "2026-07-21",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3244.52
+    },
+    {
+      "date": "2026-07-20",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3389.78
+    },
+    {
+      "date": "2026-07-20",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3996.16
+    },
+    {
+      "date": "2026-07-20",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2619.62
+    },
+    {
+      "date": "2026-07-18",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3762.05
+    },
+    {
+      "date": "2026-07-18",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3295.96
+    },
+    {
+      "date": "2026-07-18",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 837.62
+    },
+    {
+      "date": "2026-07-18",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 324.89
+    },
+    {
+      "date": "2026-07-18",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3863.28
+    },
+    {
+      "date": "2026-07-17",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1978.1
+    },
+    {
+      "date": "2026-07-17",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3050.85
+    },
+    {
+      "date": "2026-07-17",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2137.06
+    },
+    {
+      "date": "2026-07-17",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 722.09
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 501.02
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2865.01
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3410.78
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 219.66
+    },
+    {
+      "date": "2026-07-16",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4134.46
+    },
+    {
+      "date": "2026-07-15",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2205.59
+    },
+    {
+      "date": "2026-07-15",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2808.11
+    },
+    {
+      "date": "2026-07-15",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2223.04
+    },
+    {
+      "date": "2026-07-14",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 977.55
+    },
+    {
+      "date": "2026-07-14",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2017.15
+    },
+    {
+      "date": "2026-07-12",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1776.79
+    },
+    {
+      "date": "2026-07-11",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 902.71
+    },
+    {
+      "date": "2026-07-11",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2883.46
+    },
+    {
+      "date": "2026-07-10",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2840.92
+    },
+    {
+      "date": "2026-07-10",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1761.79
+    },
+    {
+      "date": "2026-07-09",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2826.62
+    },
+    {
+      "date": "2026-07-09",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3056.6
+    },
+    {
+      "date": "2026-07-08",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1159.27
+    },
+    {
+      "date": "2026-07-08",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 126.9
+    },
+    {
+      "date": "2026-07-08",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1606.02
+    },
+    {
+      "date": "2026-07-08",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3991.41
+    },
+    {
+      "date": "2026-07-07",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2593.33
+    },
+    {
+      "date": "2026-07-07",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1691.6
+    },
+    {
+      "date": "2026-07-06",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3952.09
+    },
+    {
+      "date": "2026-07-06",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3698.32
+    },
+    {
+      "date": "2026-07-06",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 848.56
+    },
+    {
+      "date": "2026-07-06",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 276.09
+    },
+    {
+      "date": "2026-07-06",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1530.4
+    },
+    {
+      "date": "2026-07-05",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4064.91
+    },
+    {
+      "date": "2026-07-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1552.68
+    },
+    {
+      "date": "2026-07-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1007.52
+    },
+    {
+      "date": "2026-07-04",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1365.18
+    },
+    {
+      "date": "2026-07-04",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1029.53
+    },
+    {
+      "date": "2026-07-04",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1745.74
+    },
+    {
+      "date": "2026-07-03",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3451.67
+    },
+    {
+      "date": "2026-07-02",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3312.14
+    },
+    {
+      "date": "2026-07-02",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3393.12
+    },
+    {
+      "date": "2026-07-02",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1208.57
+    },
+    {
+      "date": "2026-07-02",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1680.77
+    },
+    {
+      "date": "2026-07-02",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3623.06
+    },
+    {
+      "date": "2026-07-01",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4093.26
+    },
+    {
+      "date": "2026-07-01",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3897.12
+    },
+    {
+      "date": "2026-07-01",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3647.59
+    },
+    {
+      "date": "2026-07-01",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3716.18
+    },
+    {
+      "date": "2026-07-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 25495.73
+    },
+    {
+      "date": "2026-06-30",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2902.83
+    },
+    {
+      "date": "2026-06-30",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1563.01
+    },
+    {
+      "date": "2026-06-28",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1873.53
+    },
+    {
+      "date": "2026-06-28",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1377.69
+    },
+    {
+      "date": "2026-06-27",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2408.5
+    },
+    {
+      "date": "2026-06-27",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 426.99
+    },
+    {
+      "date": "2026-06-27",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2346.01
+    },
+    {
+      "date": "2026-06-26",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 779.25
+    },
+    {
+      "date": "2026-06-25",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2182.07
+    },
+    {
+      "date": "2026-06-25",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3813.77
+    },
+    {
+      "date": "2026-06-25",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 496.58
+    },
+    {
+      "date": "2026-06-25",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3503.74
+    },
+    {
+      "date": "2026-06-25",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 134.47
+    },
+    {
+      "date": "2026-06-24",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 950.68
+    },
+    {
+      "date": "2026-06-23",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1269.57
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2844.88
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3921.56
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3950.83
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1199.02
+    },
+    {
+      "date": "2026-06-22",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3149.06
+    },
+    {
+      "date": "2026-06-21",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 763.61
+    },
+    {
+      "date": "2026-06-21",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2615.65
+    },
+    {
+      "date": "2026-06-20",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 418.9
+    },
+    {
+      "date": "2026-06-20",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2184.01
+    },
+    {
+      "date": "2026-06-20",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3927.7
+    },
+    {
+      "date": "2026-06-20",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3707.42
+    },
+    {
+      "date": "2026-06-19",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2860.5
+    },
+    {
+      "date": "2026-06-19",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1985.48
+    },
+    {
+      "date": "2026-06-19",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 158.01
+    },
+    {
+      "date": "2026-06-18",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1093.84
+    },
+    {
+      "date": "2026-06-17",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1767.4
+    },
+    {
+      "date": "2026-06-17",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2481.99
+    },
+    {
+      "date": "2026-06-17",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2647.08
+    },
+    {
+      "date": "2026-06-17",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2802.08
+    },
+    {
+      "date": "2026-06-17",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3933.6
+    },
+    {
+      "date": "2026-06-16",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2171.63
+    },
+    {
+      "date": "2026-06-16",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 352.07
+    },
+    {
+      "date": "2026-06-16",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3593.48
+    },
+    {
+      "date": "2026-06-16",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2547.74
+    },
+    {
+      "date": "2026-06-13",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4072.33
+    },
+    {
+      "date": "2026-06-13",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3171.74
+    },
+    {
+      "date": "2026-06-12",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3900.19
+    },
+    {
+      "date": "2026-06-12",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1283.82
+    },
+    {
+      "date": "2026-06-12",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 751.57
+    },
+    {
+      "date": "2026-06-11",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 992.09
+    },
+    {
+      "date": "2026-06-11",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3801.97
+    },
+    {
+      "date": "2026-06-11",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1666.21
+    },
+    {
+      "date": "2026-06-10",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 326.4
+    },
+    {
+      "date": "2026-06-10",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4073.5
+    },
+    {
+      "date": "2026-06-10",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 798.55
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3386.42
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1134.52
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2308.05
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1841.28
+    },
+    {
+      "date": "2026-06-08",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2007.52
+    },
+    {
+      "date": "2026-06-07",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3644.45
+    },
+    {
+      "date": "2026-06-07",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2867.33
+    },
+    {
+      "date": "2026-06-07",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 367.3
+    },
+    {
+      "date": "2026-06-06",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1111.43
+    },
+    {
+      "date": "2026-06-06",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3414.59
+    },
+    {
+      "date": "2026-06-06",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 504.85
+    },
+    {
+      "date": "2026-06-06",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1565.53
+    },
+    {
+      "date": "2026-06-05",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3071.28
+    },
+    {
+      "date": "2026-06-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1305.91
+    },
+    {
+      "date": "2026-06-04",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2217.76
+    },
+    {
+      "date": "2026-06-04",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2849.43
+    },
+    {
+      "date": "2026-06-03",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3814.11
+    },
+    {
+      "date": "2026-06-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 39156.82
+    },
+    {
+      "date": "2026-05-30",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 613.7
+    },
+    {
+      "date": "2026-05-30",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 381.23
+    },
+    {
+      "date": "2026-05-30",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2520.3
+    },
+    {
+      "date": "2026-05-30",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2520.84
+    },
+    {
+      "date": "2026-05-29",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4054.6
+    },
+    {
+      "date": "2026-05-29",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3028.83
+    },
+    {
+      "date": "2026-05-29",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4180.21
+    },
+    {
+      "date": "2026-05-29",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1907.45
+    },
+    {
+      "date": "2026-05-28",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2272.91
+    },
+    {
+      "date": "2026-05-27",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4110.18
+    },
+    {
+      "date": "2026-05-27",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 643.84
+    },
+    {
+      "date": "2026-05-27",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3983.14
+    },
+    {
+      "date": "2026-05-26",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 469.47
+    },
+    {
+      "date": "2026-05-25",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2563.69
+    },
+    {
+      "date": "2026-05-25",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 199.47
+    },
+    {
+      "date": "2026-05-25",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3705.19
+    },
+    {
+      "date": "2026-05-25",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1096.97
+    },
+    {
+      "date": "2026-05-24",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 743.58
+    },
+    {
+      "date": "2026-05-24",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2320.67
+    },
+    {
+      "date": "2026-05-23",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3671.72
+    },
+    {
+      "date": "2026-05-22",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3255.88
+    },
+    {
+      "date": "2026-05-22",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 575.13
+    },
+    {
+      "date": "2026-05-22",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 765.28
+    },
+    {
+      "date": "2026-05-22",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4011.57
+    },
+    {
+      "date": "2026-05-22",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4085.3
+    },
+    {
+      "date": "2026-05-20",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1689.85
+    },
+    {
+      "date": "2026-05-20",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2278.79
+    },
+    {
+      "date": "2026-05-20",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2895.56
+    },
+    {
+      "date": "2026-05-19",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3351.68
+    },
+    {
+      "date": "2026-05-16",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 490.91
+    },
+    {
+      "date": "2026-05-15",
+      "category": "Спорт и красота",
+      "subcategory": "",
+      "comment": "",
+      "amount": 702.92
+    },
+    {
+      "date": "2026-05-15",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1126.24
+    },
+    {
+      "date": "2026-05-15",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3167.82
+    },
+    {
+      "date": "2026-05-15",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3783.12
+    },
+    {
+      "date": "2026-05-15",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1596.95
+    },
+    {
+      "date": "2026-05-14",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 390.05
+    },
+    {
+      "date": "2026-05-14",
+      "category": "Образование",
+      "subcategory": "",
+      "comment": "",
+      "amount": 987.52
+    },
+    {
+      "date": "2026-05-14",
+      "category": "Прочее",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1734.18
+    },
+    {
+      "date": "2026-05-13",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3404.59
+    },
+    {
+      "date": "2026-05-11",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2605.25
+    },
+    {
+      "date": "2026-05-11",
+      "category": "Ребёнок",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2299.29
+    },
+    {
+      "date": "2026-05-11",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 786.68
+    },
+    {
+      "date": "2026-05-11",
+      "category": "Переводы другим людям",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1221.39
+    },
+    {
+      "date": "2026-05-11",
+      "category": "Кафе и рестораны",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2913.23
+    },
+    {
+      "date": "2026-05-10",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 783.63
+    },
+    {
+      "date": "2026-05-10",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 974.79
+    },
+    {
+      "date": "2026-05-10",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2983.43
+    },
+    {
+      "date": "2026-05-09",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1670.91
+    },
+    {
+      "date": "2026-05-08",
+      "category": "Коммунальные платежи",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4139.7
+    },
+    {
+      "date": "2026-05-07",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2372.33
+    },
+    {
+      "date": "2026-05-07",
+      "category": "Маркетплейсы",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2475.6
+    },
+    {
+      "date": "2026-05-07",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 306.96
+    },
+    {
+      "date": "2026-05-06",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3097.31
+    },
+    {
+      "date": "2026-05-06",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4090.31
+    },
+    {
+      "date": "2026-05-05",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 498.4
+    },
+    {
+      "date": "2026-05-05",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1584.64
+    },
+    {
+      "date": "2026-05-05",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 875.16
+    },
+    {
+      "date": "2026-05-04",
+      "category": "Развлечения / Отдых",
+      "subcategory": "",
+      "comment": "",
+      "amount": 4025.43
+    },
+    {
+      "date": "2026-05-03",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1508.22
+    },
+    {
+      "date": "2026-05-02",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2409.88
+    },
+    {
+      "date": "2026-05-02",
+      "category": "Налоги",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1019.4
+    },
+    {
+      "date": "2026-05-02",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3422.48
+    },
+    {
+      "date": "2026-05-02",
+      "category": "Продукты",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3215.93
+    },
+    {
+      "date": "2026-05-01",
+      "category": "Здоровье",
+      "subcategory": "",
+      "comment": "",
+      "amount": 222.04
+    },
+    {
+      "date": "2026-05-01",
+      "category": "Связь и интернет",
+      "subcategory": "",
+      "comment": "",
+      "amount": 1119.16
+    },
+    {
+      "date": "2026-05-01",
+      "category": "Одежда",
+      "subcategory": "",
+      "comment": "",
+      "amount": 3124.8
+    },
+    {
+      "date": "2026-05-01",
+      "category": "Транспорт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 2529.21
+    },
+    {
+      "date": "2026-05-01",
+      "category": "Дом и быт",
+      "subcategory": "",
+      "comment": "",
+      "amount": 241.57
+    },
+    {
+      "date": "2026-05-01",
+      "category": "Жильё",
+      "subcategory": "",
+      "comment": "",
+      "amount": 29372.76
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Регрессия 14.10.2026: APK-обёртка (WebIntoApp/WebView) показывала данные
+# от 12 октября. Кэш WebView переживал обновление приложения и отдавал старый
+# каркас. Данные защищались (?ts= + no-store), а сами файлы приложения — нет.
+#
+# Правило без <FilesMatch>: чередование расширений в регулярке Apache
+# отрабатывало не для всех типов (.js оставался с max-age=604800 от хостинга),
+# поэтому запрет кэша вешается на весь каталог целиком.
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+</IfModule>

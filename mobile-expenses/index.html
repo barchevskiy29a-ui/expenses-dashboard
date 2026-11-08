@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#206bc4">
+  <meta name="description" content="Мобильный дашборд расходов">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Расходы</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">₽</span><span>Расходы</span></div>
+    <span class="updated" id="updated">Обновление…</span>
+  </header>
+  <main class="container" id="top">
+    <section class="page-heading">
+      <div><p class="eyebrow">Личный бюджет</p><h1>Обзор расходов</h1></div>
+      <button class="icon-button" id="refresh" type="button" aria-label="Обновить данные">↻</button>
+    </section>
+    <section class="kpi-grid" aria-label="Ключевые показатели">
+      <article class="card kpi-card kpi-primary active" data-period="month"><span id="kpi-title">За текущий месяц</span><strong id="month-total">—</strong><small id="kpi-month-label">—</small></article>
+      <article class="card kpi-card" data-period="prev"><span>Прошлый месяц</span><strong id="prev-total">—</strong><small id="prev-month-label">—</small></article>
+      <article class="card kpi-card" data-period="all"><span id="total-title">Всего расходов</span><strong id="total">—</strong><small id="total-label">за всё время</small></article>
+      <article class="card kpi-card" data-period="avg"><span>Среднее в месяц</span><strong id="average">—</strong><small>по активным месяцам</small></article>
+      <article class="card kpi-card"><span>Операций</span><strong id="count">—</strong><small id="count-label">записей</small></article>
+    </section>
+    <section class="section-heading"><div><p class="eyebrow">Аналитика</p><h2>Картина расходов</h2></div><span class="status-pill" id="data-status">Данные загружаются</span></section>
+    <section class="chart-grid chart-grid-single">
+      <article class="card chart-card"><div class="card-header"><div><h2>Категории</h2><p id="month-label">Расходы за текущий месяц</p></div></div><div class="seg-control" role="tablist" aria-label="Период">
+  <button type="button" class="seg-btn active" data-period="month" role="tab" aria-selected="true">Текущий месяц</button>
+  <button type="button" class="seg-btn" data-period="prev" role="tab" aria-selected="false">Прошлый месяц</button>
+  <button type="button" class="seg-btn" data-period="all" role="tab" aria-selected="false">Всё время</button>
+</div><div id="category-bars" class="chart"></div><p id="bars-hint" class="chart-hint">Нажмите на столбец, чтобы показать только эту категорию в операциях</p></article>
+    </section>
+    <section class="section-heading section-heading-spaced"><div><p class="eyebrow">Журнал</p><h2 id="operations-title">Операции</h2></div></section>
+    <section class="card transactions-card" id="transactions"><div class="card-header"><div><h2>Операции</h2><p id="transaction-count">—</p></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Поиск"></label></div><div class="table-wrap"><table><thead><tr><th>Дата</th><th>Категория</th><th>Описание</th><th class="amount">Сумма</th></tr></thead><tbody id="transactions-body"></tbody></table></div></section>
+    <section class="chart-grid chart-grid-single">
+      <article class="card chart-card"><div class="card-header"><div><h2>Динамика</h2><p>Расходы по месяцам</p></div><div class="chart-zoom" role="group" aria-label="Масштаб графика"><button type="button" class="icon-button" id="chart-zoom-out" aria-label="Уменьшить график">−</button><button type="button" class="icon-button" id="chart-zoom-in" aria-label="Увеличить график">+</button></div></div><div class="hscroll"><div id="monthly-chart" class="chart"></div></div></article>
+    </section>
+    <article class="card" id="deltas-card"><div class="card-header"><div><h2>Динамика категорий</h2><p id="deltas-label">—</p></div></div><div id="category-deltas" class="delta-list"></div></article>
+  </main>
+  <nav class="bottom-nav" aria-label="Навигация"><a class="active" href="#top">Обзор</a><a href="#category-bars">Категории</a><a href="#monthly-chart">Месяцы</a><a href="#transactions">Операции</a></nav>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
