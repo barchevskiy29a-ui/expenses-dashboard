@@ -1,6 +1,50 @@
 const money = value => new Intl.NumberFormat('ru-RU',{minimumFractionDigits:2,maximumFractionDigits:2}).format(Number(value)||0)+' ₽';
 const state = {data:null, charts:[], selectedCategory:null, headItems:[]};
 const byId = id => document.getElementById(id);
+// Тема оформления: светлая/тёмная. Явный выбор пользователя хранится в
+// localStorage (THEME_KEY); без выбора — системная prefers-color-scheme.
+const THEME_KEY='theme';
+function resolveTheme(pref, systemDark){
+  if(pref==='light'||pref==='dark') return pref;
+  return systemDark?'dark':'light';
+}
+function nextTheme(current){ return current==='dark'?'light':'dark'; }
+function cssVar(name, fallback){
+  try{
+    const v=getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    return v || fallback;
+  }catch(e){ return fallback; }
+}
+function currentTheme(){ return document.documentElement.dataset.theme==='dark'?'dark':'light'; }
+function applyTheme(theme, persist){
+  document.documentElement.dataset.theme=theme;
+  const dark = theme==='dark';
+  const btn=byId('theme-toggle');
+  if(btn){
+    btn.textContent=dark?'☀️':'🌙';
+    btn.setAttribute('aria-label', dark?'Включить светлую тему':'Включить тёмную тему');
+  }
+  const meta=document.querySelector('meta[name="theme-color"]');
+  if(meta) meta.content=dark?'#182433':'#206bc4';
+  if(state.data){ state.charts.forEach(c=>{ if(c&&c.dispose) c.dispose(); }); state.charts=[]; render(); }
+  if(persist){ try{ localStorage.setItem(THEME_KEY, theme); }catch(e){} }
+}
+function initTheme(){
+  let stored=null;
+  try{ stored=localStorage.getItem(THEME_KEY); }catch(e){}
+  const sysDark=!!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  applyTheme(resolveTheme(stored, sysDark), false);
+  const btn=byId('theme-toggle');
+  if(btn) btn.addEventListener('click',()=>applyTheme(nextTheme(currentTheme()), true));
+  if(window.matchMedia){
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e=>{
+      let s=null;
+      try{ s=localStorage.getItem(THEME_KEY); }catch(err){}
+      if(s===null) applyTheme(resolveTheme('', e.matches), false);
+    });
+  }
+}
+
 async function fetchWithRetry(fetcher, url, options, attempts, delayMs){
   let lastError = null;
   for(let i = 0; i < attempts; i++){
@@ -88,7 +132,9 @@ function applyPeriod(data){
   renderTransactionsForPeriod();
 }
 document.querySelectorAll('[data-period]').forEach(b => b.addEventListener('click', () => { period = b.dataset.period; applyPeriod(window.__dashboardData); }));
-function chartBase(){return{animationDuration:450,tooltip:{trigger:'item',confine:true},textStyle:{fontFamily:'system-ui'}}}
+function chartBase(){
+  const cv = typeof cssVar === 'function' ? cssVar : (n,f)=>f;
+  return{animationDuration:450,tooltip:{trigger:'item',confine:true,backgroundColor:cv('--card','#fff'),borderColor:cv('--border','#e6e9ee'),textStyle:{color:cv('--text','#182433'),fontFamily:'system-ui'}},textStyle:{fontFamily:'system-ui'}}}
 // Палитра по категориям. Раньше цвет сектора задавался только индексом в
 // series[].data, поэтому ECharts красил по порядку, а порядок в режимах
 // «месяц» и «всё время» разный: при переключении цвета прыгали. Теперь цвет
@@ -118,11 +164,12 @@ function buildBarData(items){return buildCategoryData(items).slice().sort((a,b)=
 function selectedOpacity(name){ return (!state.selectedCategory || name === state.selectedCategory) ? 1 : 0.35; }
 function renderCategoryBars(items){
   const el=byId('category-bars'); if(!el||!window.echarts)return;
+  const cv = typeof cssVar === 'function' ? cssVar : (n,f)=>f;
   const chart=state.charts[0]||echarts.init(el); state.charts[0]=chart;
   state.headItems=(items||[]).slice();
   const data=buildBarData(items).map(d=>({...d,itemStyle:{...d.itemStyle,opacity:selectedOpacity(d.name)}}));
   el.style.height=Math.max(260, data.length*40+80)+'px';
-  chart.setOption({...chartBase(),tooltip:{trigger:'item',formatter:p=>`${p.name}<br><b>${money(p.value)}</b>`},grid:{left:8,right:64,top:8,bottom:8,containLabel:true},xAxis:{type:'value',axisLabel:{fontSize:10}},yAxis:{type:'category',data:data.map(x=>x.name),axisLabel:{fontSize:11}},series:[{type:'bar',data:data,label:{show:true,position:'right',formatter:p=>money(p.value),fontSize:10}}]},true);
+  chart.setOption({...chartBase(),tooltip:{...chartBase().tooltip,trigger:'item',formatter:p=>`${p.name}<br><b>${money(p.value)}</b>`},grid:{left:8,right:64,top:8,bottom:8,containLabel:true},xAxis:{type:'value',axisLabel:{fontSize:10,color:cv('--muted','#667382')},splitLine:{lineStyle:{color:cv('--border','#e6e9ee')}}},yAxis:{type:'category',data:data.map(x=>x.name),axisLabel:{fontSize:11,color:cv('--text','#182433')}},series:[{type:'bar',data:data,label:{show:true,position:'right',formatter:p=>money(p.value),fontSize:10,color:cv('--text','#182433')}}]},true);
   chart.resize();
   if(chart.off) chart.off('click');
   if(chart.on) chart.on('click', onCategoryBarClick);
@@ -161,9 +208,10 @@ function applyMonthlyZoom(dir){ setMonthlyZoom(dir); fitMonthlyChart(); var char
 document.querySelectorAll('.chart-zoom button').forEach(b => b.addEventListener('click', () => { applyMonthlyZoom(b.id === 'chart-zoom-in' ? 1 : -1); }));
 function renderMonthlyChart(items){
   const el=byId('monthly-chart'); if(!el||!window.echarts)return;
+  const cv = typeof cssVar === 'function' ? cssVar : (n,f)=>f;
   const chart=state.charts[1]||echarts.init(el); state.charts[1]=chart;
   monthlyPointCount = (items||[]).length;
-  chart.setOption({...chartBase(),grid:{left:42,right:12,top:18,bottom:36},tooltip:{trigger:'axis',confine:true,formatter:p=>`${p[0]?.axisValue}<br><b>${money(p[0]?.value)}</b>`},xAxis:{type:'category',data:items.map(x=>x.month),axisLabel:{fontSize:10,rotate:items.length>7?35:0}},yAxis:{type:'value',axisLabel:{fontSize:10,formatter:v=>v>=1000000?(v/1000000)+'M':v>=1000?(v/1000)+'k':v}},series:[{type:'line',smooth:true,symbol:'circle',symbolSize:6,lineStyle:{width:3,color:'#206bc4'},areaStyle:{color:'#206bc422'},itemStyle:{color:'#206bc4'},data:items.map(x=>Number(x.total)||0)}]},true);
+  chart.setOption({...chartBase(),grid:{left:42,right:12,top:18,bottom:36},tooltip:{...chartBase().tooltip,trigger:'axis',formatter:p=>`${p[0]?.axisValue}<br><b>${money(p[0]?.value)}</b>`},xAxis:{type:'category',data:items.map(x=>x.month),axisLabel:{fontSize:10,rotate:items.length>7?35:0,color:cv('--text','#182433')},splitLine:{lineStyle:{color:cv('--border','#e6e9ee')}}},yAxis:{type:'value',axisLabel:{fontSize:10,color:cv('--muted','#667382'),formatter:v=>v>=1000000?(v/1000000)+'M':v>=1000?(v/1000)+'k':v},splitLine:{lineStyle:{color:cv('--border','#e6e9ee')}}},series:[{type:'line',smooth:true,symbol:'circle',symbolSize:6,lineStyle:{width:3,color:'#206bc4'},areaStyle:{color:'#206bc422'},itemStyle:{color:'#206bc4'},data:items.map(x=>Number(x.total)||0)}]},true);
   fitMonthlyChart();
   chart.resize();
 }
@@ -206,5 +254,6 @@ byId('refresh').addEventListener('click',()=>loadData().catch(showError));
 byId('search').addEventListener('input',()=>state.data&&renderTransactionsForPeriod());
 window.addEventListener('resize',()=>{fitMonthlyChart();state.charts.forEach(x=>x&&x.resize());});
 function showError(){byId('updated').textContent='Ошибка загрузки';}
+initTheme();
 loadData().catch(showError);
 if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js'));

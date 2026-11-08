@@ -19,3 +19,12 @@
 .card[data-period]{cursor:pointer}
 .kpi-card.active{outline:2px solid var(--blue);outline-offset:-2px}
 .chart-zoom{display:flex;gap:8px;flex-shrink:0}
+.topbar .icon-button{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.3);color:#fff}
+html[data-theme="dark"]{--blue:#4d8ee8;--blue-dark:#0f1419;--bg:#0f1419;--card:#182433;--text:#e6e9ee;--muted:#9aa7b8;--border:#2a3644;--shadow:0 2px 8px #00000066}
+html[data-theme="dark"] .status-pill{background:#1f3a2a;color:#7fd99a}
+html[data-theme="dark"] .status-pill.stale{background:#3a1f22;color:#ff9d9d}
+html[data-theme="dark"] .delta-up{background:#1f3a2a;color:#7fd99a}
+html[data-theme="dark"] .delta-down{background:#3a1f22;color:#ff9d9d}
+html[data-theme="dark"] .delta-new{background:#243447;color:#7fb3ff}
+html[data-theme="dark"] .hscroll::-webkit-scrollbar-thumb{background:#3a4757}
+html[data-theme="dark"] .hscroll::-webkit-scrollbar-thumb:hover{background:var(--blue)}
