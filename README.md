@@ -25,7 +25,12 @@ fast, private dashboard on your phone.
 
 https://barchevskiy29a-ui.github.io/expenses-dashboard/
 
-Демо работает на синтетических данных: это пример, а не чужие траты.
+Фемо работает на синтетических данных: это пример, а не чужие траты.
+
+### Скриншоты
+
+![Мобильный вид, светлая тема](assets/screenshots/mobile-light.png)
+![Мобильный вид, тёмная тема](assets/screenshots/mobile-dark.png)
 
 ### Возможности
 
@@ -126,6 +131,11 @@ private dashboard on your phone.
 https://barchevskiy29a-ui.github.io/expenses-dashboard/
 
 The demo runs on synthetic data: it is an example, not someone's expenses.
+
+### Screenshots
+
+![Mobile view, light theme](assets/screenshots/mobile-light.png)
+![Mobile view, dark theme](assets/screenshots/mobile-dark.png)
 
 ### Features
 
