@@ -9,6 +9,10 @@ function resolveTheme(pref, systemDark){
   return systemDark?'dark':'light';
 }
 function nextTheme(current){ return current==='dark'?'light':'dark'; }
+function urlTheme(search){
+  const m=/[?&]theme=(light|dark)/.exec(search||'');
+  return m?m[1]:null;
+}
 function cssVar(name, fallback){
   try{
     const v=getComputedStyle(document.documentElement).getPropertyValue(name).trim();
@@ -30,8 +34,10 @@ function applyTheme(theme, persist){
   if(persist){ try{ localStorage.setItem(THEME_KEY, theme); }catch(e){} }
 }
 function initTheme(){
-  let stored=null;
-  try{ stored=localStorage.getItem(THEME_KEY); }catch(e){}
+  let stored=urlTheme(location.search);
+  if(stored===null){
+    try{ stored=localStorage.getItem(THEME_KEY); }catch(e){}
+  }
   const sysDark=!!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
   applyTheme(resolveTheme(stored, sysDark), false);
   const btn=byId('theme-toggle');

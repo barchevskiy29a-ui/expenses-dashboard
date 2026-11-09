@@ -46,6 +46,7 @@ def _run(expr):
     parts = [
         _extract_function(js, "resolveTheme"),
         _extract_function(js, "nextTheme"),
+        _extract_function(js, "urlTheme"),
     ]
     script = "\n".join(parts) + "\nconsole.log(JSON.stringify(" + expr + "));\n"
     proc = subprocess.run(["node", "-e", script], capture_output=True,
@@ -74,3 +75,9 @@ def test_invalid_preference_treated_as_missing():
 def test_next_theme_toggles():
     assert _run("[nextTheme('light'), nextTheme('dark')]") \
         == ["dark", "light"]
+
+
+def test_url_theme_parameter():
+    assert _run("[urlTheme('?theme=dark'), urlTheme('?theme=light&cb=1'), "
+                "urlTheme(''), urlTheme('?cb=123'), urlTheme('?THEME=dark')]") \
+        == ["dark", "light", None, None, None]
