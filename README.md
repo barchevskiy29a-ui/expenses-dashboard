@@ -32,6 +32,11 @@ https://barchevskiy29a-ui.github.io/expenses-dashboard/
 ![Мобильный вид, светлая тема](assets/screenshots/mobile-light.png)
 ![Мобильный вид, тёмная тема](assets/screenshots/mobile-dark.png)
 
+Столбцы категорий расходов:
+
+![Категории расходов, светлая тема](assets/screenshots/categories-light.png)
+![Категории расходов, тёмная тема](assets/screenshots/categories-dark.png)
+
 ### Возможности
 
 - KPI: траты за месяц, за прошлый месяц, средний чек, итого;
@@ -136,6 +141,11 @@ The demo runs on synthetic data: it is an example, not someone's expenses.
 
 ![Mobile view, light theme](assets/screenshots/mobile-light.png)
 ![Mobile view, dark theme](assets/screenshots/mobile-dark.png)
+
+Expense category bars:
+
+![Category bars, light theme](assets/screenshots/categories-light.png)
+![Category bars, dark theme](assets/screenshots/categories-dark.png)
 
 ### Features
 
